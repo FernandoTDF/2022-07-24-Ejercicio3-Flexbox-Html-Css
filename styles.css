@@ -1,0 +1,245 @@
+div {
+/*   border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: darkgrey;
+  height: 100px;
+  width: 100px; */
+  /* font-weight: bold; */
+}
+
+#encabezado {
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: darkgrey;
+  height: 10%;
+  width: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+    /* align-items: flex-start; */
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+#encabezado-divEncabezado{
+  margin: 0.5%;
+  width: 55%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  border-radius:  0;
+  padding: 5px;
+  height: auto;
+  border-style:none;
+}
+
+#encabezado-divMenu1{
+  margin: 0.5%;
+  background-color: mediumseagreen;
+  border-style: solid;
+  border-width: 1px;
+  width: 35%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: blanchedalmond;
+  border-radius:  0;
+  border-color: black;
+  padding: 5px;
+  padding-left: 5%;
+  height: auto;
+}
+
+#encabezado-divLogo{
+  margin: 0.5%;
+  background-color: blue;
+  border-style: solid;
+  border-width: 1px;
+  width: 17%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: blanchedalmond;
+  border-radius:  0;
+  border-color: black;
+  padding: 5px;
+  padding-left: 2%;
+  margin-right: 10% ;
+  height: auto;
+
+}
+
+#encabezado-divMenu2{
+  margin: 0.5%;
+  background-color: brown;
+  border-style: solid;
+  border-width: 1px;
+  width: 65%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: blanchedalmond;
+  border-radius:  0;
+  border-color: black;
+  padding: 5px;
+  padding-left: 2%;
+  
+  height: auto;
+}
+
+#cuerpo1 {
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  border-radius: 10px;
+  height: 300px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#cuerpo-div-izq{
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  background-color: grey;
+  margin-bottom: 0.5%;
+  margin-right:  0.5%;
+  width: 29%;
+  height: auto;
+  color: blanchedalmond;
+  margin: 0.5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  border-color: black;
+  padding: 2%;
+  height: auto;
+}
+
+#cuerpo-div-cen{
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  background-color: cadetblue;
+  margin-bottom: 0.5%;
+  margin-right:  0.5%;
+  width: 29%;
+  height: auto;
+  color: blanchedalmond;
+  margin: 0.5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  border-color: black;
+  padding: 2%;
+  height: auto;
+}
+
+#cuerpo-div-der{
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  background-color: coral;
+  margin-bottom: 0.5%;
+  margin-right:  0.5%;
+  width: 29%;
+  height: auto;
+  color: blanchedalmond;
+  margin: 0.5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  border-color: black;
+  padding: 2%;
+  height: auto;
+}
+
+
+#cuerpo2 {
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  height: 300px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#cuerpo-div-izq2{
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  background-color: green;
+  margin-bottom: 0.5%;
+  margin-right:  0.5%;
+  width: 61%;
+  height: auto;
+  color: blanchedalmond;
+  margin: 0.5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  border-color: black;
+  padding: 2%;
+  height: auto;
+}
+
+#cuerpo-div-der2{
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  background-color: maroon;
+  margin-bottom: 0.5%;
+  margin-right:  0.5%;
+  width: 28%;
+  height: auto;
+  color: blanchedalmond;
+  margin: 0.5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  border-color: black;
+  padding: 2%;
+  height: auto;
+}
+
+#pie {
+  
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgb(22, 181, 244);
+  height: 10%;
+  padding: 10px;
+  margin: 0.5% 0.5% 0.5%;
+  display: block;
+}
+
+#pie-divPie{
+  display: block;
+  
+  border-width: 1px;
+  border-radius: 10px;
+  
+  margin-bottom: 0.5%;
+  margin-right:  0.5%;
+  width: auto;
+  height: auto;
+  color: black;
+  margin: 0.5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  border-color: black;
+  padding: 2%;
+  height: auto;
+}
+
+#pie-divElemento{
+  margin: 0.5%;
+  background-color: blue;
+  border-style: solid;
+  border-width: 1px;
+  width: 20%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: blanchedalmond;
+  border-radius:  0;
+  border-color: black;
+  padding: 5px;
+  padding-left: 2%;
+  margin-left: 77%;
+  margin-right: 10% ;
+  height: auto;
+}
