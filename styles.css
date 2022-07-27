@@ -1,4 +1,4 @@
-div {
+div { 
 /*   border-radius: 10px;
   border-style: solid;
   border-width: 1px;
@@ -17,7 +17,7 @@ div {
   width: auto;
   padding: 10px;
   display: flex;
-  flex-direction: row;
+  flex-direction: row; 
     /* align-items: flex-start; */
   justify-content: space-between;
   flex-flow: row wrap;
@@ -25,7 +25,7 @@ div {
 
 #encabezado-divEncabezado{
   margin: 0.5%;
-  width: 55%;
+  width: 55%; 
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
   border-radius:  0;
